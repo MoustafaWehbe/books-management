@@ -3,6 +3,8 @@
 ## 📌 Overview
 Books Management is a monorepo project built with **Yarn Workspaces**, consisting of a **Next.js client** and an **Express/SQLite backend**. The project is structured as follows:
 
+![Books Management Preview](./home-page.png)
+
 ```
 books-management/
 ├── packages/
