@@ -1,0 +1,22 @@
+{
+  "name": "books-management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "start:server": "yarn workspace server start",
+    "start:client": "yarn workspace client dev",
+    "start": "concurrently \"yarn start:server\" \"yarn start:client\""
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "license": "MIT",
+  "author": "Moustafa <moustafawehbe102@gmail.com>",
+  "packageManager": "yarn@1.22.22",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
